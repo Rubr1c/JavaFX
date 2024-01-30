@@ -18,8 +18,7 @@ public class levelController {
 	
 	@FXML
 	private Label youLost1;
-	
-	
+
 	
 	public void endGame1(MouseEvent event) throws InterruptedException {
 		youLost1.setOpacity(1.0);
