@@ -1,0 +1,20 @@
+.root {
+	-fx-background-image: url("better-call-saul-season-6-delaye.png");
+	-fx-background-repeat: no-repeat;
+  	-fx-background-size: 100% 100%;
+}
+
+.label {
+	-fx-text-fill: "white";
+}
+
+#titleLabel {
+	-fx-font-size: 60;
+	-fx-alignment:baseline-center;
+}
+
+.button {
+    -fx-pref-width: 200;
+    -fx-pref-height: 80;
+    -fx-font-size: 18;
+}

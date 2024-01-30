@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" stylesheets="@Main.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edgeGame.MainController">
+   <children>
+       <Label fx:id="titleLabel" layoutX="0.0" layoutY="0.0" text="Edge Game" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="0.0" layoutY="0.0" text="choo easy inc" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0">
+      </Label>
+      <Label layoutX="0.0" layoutY="0.0" text="Rubric" AnchorPane.bottomAnchor="10.0" AnchorPane.rightAnchor="10.0">
+      </Label>
+      <!-- Your buttons here -->
+      <HBox alignment="CENTER" spacing="20" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="200.0">
+         <Button fx:id="levelOneButton" layoutX="102.0" layoutY="188.0" mnemonicParsing="false" onAction="#levelOneAction" text="Level 1" />
+		 <Button fx:id="level2Button" layoutX="186.0" layoutY="188.0" mnemonicParsing="false" text="Level 2" />
+		 <Button fx:id="level3Button" layoutX="274.0" layoutY="188.0" mnemonicParsing="false" text="Level 3" />
+		 <Button fx:id="level4Button" layoutX="361.0" layoutY="188.0" mnemonicParsing="false" text="Level 4" />
+		 <Button fx:id="level5Button" layoutX="447.0" layoutY="188.0" mnemonicParsing="false" text="Level 5" />
+      </HBox>
+   </children>
+</AnchorPane>

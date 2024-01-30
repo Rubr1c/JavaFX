@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="levelOnePane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edgeGame.levelController">
+   <children>
+      <Rectangle fx:id="b1" arcHeight="5.0" arcWidth="5.0" height="604.0" layoutX="1095.0" onMouseEntered="#endGame1" stroke="BLACK" strokeType="INSIDE" width="825.0" />
+      <Rectangle fx:id="b0" arcHeight="5.0" arcWidth="5.0" height="360.0" onMouseEntered="#endGame1" stroke="BLACK" strokeType="INSIDE" width="1101.0" />
+      <Circle fx:id="winCircle" fill="#1fff63" layoutX="1881.0" layoutY="651.0" radius="32.0" stroke="BLACK" strokeType="INSIDE" />
+      <Label fx:id="youLost1" layoutX="881.0" layoutY="98.0" opacity="0.0" text="You Lost!" textFill="#f20000">
+         <font>
+            <Font size="48.0" />
+         </font>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </Label>
+      <Rectangle fx:id="b2" arcHeight="5.0" arcWidth="5.0" height="655.0" layoutY="427.0" onMouseEntered="#endGame1" stroke="BLACK" strokeType="INSIDE" width="1002.0" />
+      <Rectangle fx:id="b3" arcHeight="5.0" arcWidth="5.0" height="382.0" layoutX="998.0" layoutY="698.0" onMouseEntered="#endGame1" stroke="BLACK" strokeType="INSIDE" width="922.0" />
+   </children>
+</AnchorPane>
