@@ -18,9 +18,17 @@ public class levelController {
 	
 	@FXML
 	private Label youLost1;
+	
+	@FXML
+	private Button tryAgainButton1;
+	
+	@FXML
+	private Button homeButton1;
 
 	
 	public void endGame1(MouseEvent event) throws InterruptedException {
 		youLost1.setOpacity(1.0);
+		tryAgainButton1.setOpacity(1.0);
+		homeButton1.setOpacity(1.0);
 	}
 }
